@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>hello</title>
+        <meta charset="UTF-8">
+        <meta name="keywords" content="put imp">
+        <meta name="author" content="put name of the name">
+        <meta name="description" content="one line description">
+        <meta name="viewport" content="width=device-width initial-scale=1">
+        <link rel="stylesheet" href="signup.css">
+        <style>
+            .error{
+                color: red;
+                font-size: 12px;
+            }
+        </style>
+    </head>
+    <body>
+    <div class="bg">
+        <header>
+            <nav class="nav-container">
+                <div>
+                    <img src="https://play-lh.googleusercontent.com/dsLAyfBBZIizzwGkDQ8gyiooWGD2RtwYaKYNzLZQWy1jmfUVPrfgCrk30NoI-udMEg" class="image1"/>
+                </div>
+                <h1 class="navhead">Bikes & Cars Rentals</h1>
+                <ol class="ol-container">
+                    <li><a class="a1" href="index.html">Home</a></li>
+                    <li><a class="a1" href="signup.html">Sign in</a></li>
+                    <li><a class="a1" href="index.html">Explore</a></li>
+                    <li><a class="a1" href="faq.html">Faq's</a></li>
+                </ol>
+            </nav>
+        </header>
+        <h1 class="header3">Signup here to explore more</h1>
+        <form action="explore.html" onsubmit="return validation()" novalidate>
+            <table>
+                <tr>
+                    <td><label for="fname">Firstname</label></td>
+                    <td><input onblur="valid1()" id="fname" type="text" name="pname" placeholder="firstname"></td>
+                </tr>
+                <tr><td></td><td class="error" id="error1"></td></tr>
+                <tr>
+                    <td><label for="lname">Lastname</label></td>
+                    <td><input onblur="valid3()" id="lname" type="text" name="pname" placeholder="lastname" ></td>
+                </tr>
+                <tr><td></td><td class="error" id="error3"></td></tr>
+                <tr>
+                    <td><label for="date1">Date of Birth</label></td>
+                    <td><input type="date" id="date1" name="date" onchange="valid2()"></td>
+                </tr>
+                <tr><td></td><td class="error" id="error2"></td></tr>
+                <tr>
+                    <td><label>Gender</label></td>
+                    <td>
+                        <input type="radio" name="gender" id="g1" onchange="valid4()"><label for="g1">Male</label>
+                        <input type="radio" name="gender" id="g2" onchange="valid4()"><label for="g2">Female</label>
+                        <input type="radio" name="gender" id="g3" onchange="valid4()"><label for="g3">Others</label>
+                    </td>
+                </tr>
+                <tr><td></td><td class="error" id="error4"></td></tr>
+
+                <tr>
+                    <td><label>Id Proof</label></td>
+                    <td>
+                        <input type="radio" name="Id Proof" id="q1" onchange="valid7()"><label for="q1">Aadhar</label>
+                        <input type="radio" name="Id Proof" id="q2" onchange="valid7()"><label for="q2">Pan Card</label>
+                        <input type="radio" name="Id Proof" id="q3" onchange="valid7()"><label for="q3">Voter Id</label>
+                    </td>
+                </tr>
+                <tr><td></td><td class="error" id="error7"></td></tr>
+                 
+                <tr>
+
+                    <td><label >Mobile Number</label></td>
+                    <td><input onblur="valid5()" type="text" name="num" id="num1" minlength="1" maxlength="10" placeholder="9876543210" required></td>
+                </tr>
+                <tr><td></td><td class="error" id="error5"></td></tr>
+                <tr>
+                    <td><label id="num1">Email</label></td>
+                    <td><input onblur="valid6()" type="email"  id="mail" placeholder="abc@gmail.com" required></td>
+                </tr>
+                <tr><td></td><td class="error" id="error6"></td></tr>
+                <tr><td></td>
+                    <td><input type="submit" value="Proceed">
+                    <input type="reset" value="Reset"></td>
+                </tr>
+            </table>
+        </form>
+        <footer>
+            <div class="footer-container">
+                <div class="footer1">
+                    <img src="https://www.logolynx.com/images/logolynx/1c/1cae9395b9f63853da4b5f72c89d0998.jpeg" alt="footer image" class="image2"/>
+                </div>
+                <div class="footer1">
+                    <h3>Contact us</h3>
+                    <p>+91 8121988675</p>
+                    <p>(WhatsApp only)</p>
+                    <p>support@rentals.com</p>
+                </div>
+                <div class="footer1">
+                    <h2>Quick Links</h2>
+                    <a class="a2" href="index.html">Home</a>
+                    <a class="a2" href="faq.html">Faq's</a>
+                </div>
+                <div class="footer1">
+                    <h2>Payment Options</h2>
+                    <div>
+                        <i class="fab fa-cc-mastercard" style="font-size: 30px; color: black;" ></i>
+                        <i class="fab fa-cc-visa" style="font-size: 30px; color: black;"></i>
+                        <i class="far fa-credit-card" style="font-size: 30px; color: black;"></i>
+                        <i class="fab fa-cc-amazon-pay" style="font-size: 30px; color: black;"></i>
+                        <i class="fab fa-google-pay" style="font-size: 30px; color: black;"></i>
+                    </div>
+                    <h2>Address</h2>
+                    <pre>H.No.: 4-331 P,Jamesbond Road,East Zone, Hyderabad,Telangana-500084.
+                    </pre>
+                </div>
+            </div>
+        </footer>
+    </div>
+        <script src="signup.js"></script>
+    </body>
+</html>

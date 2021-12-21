@@ -1,0 +1,114 @@
+.container {
+    background-image: url("https://wallpapersmug.com/large/d606c0/winter-road-turn-long-exposure-snow-4k.jpg");
+    height: 190vh;
+    width: cover;
+    
+}
+.nav-container{
+    background-image: linear-gradient(rgba(162, 92, 241, 0.884),rgb(124, 94, 233));
+    padding: 5px;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 12px;
+}
+body {
+    margin: 0px;
+}
+header {
+    top: 0px;
+    position: sticky;
+}
+.image1{
+    height: 70px;
+    width: 80px;
+    padding: 8px;
+    border-radius: 5px;
+}
+.ol-container,.a1{
+    display: flex;
+    justify-content: space-around;
+    color: rgb(15, 15, 15);
+    list-style-type: none;
+    font-size: 20px;
+}
+.a1{
+    margin: 10px;
+}
+.navhead {
+    margin-left: 200px;
+    margin-top: 30px;
+}
+.footer-container{
+    background-image: linear-gradient(rgb(124, 94, 233),rgba(162, 92, 241, 0.884));
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    border-radius: 20px;
+}
+.image2{
+    height: 250px;
+    width: 180px;
+    padding-left: 0px;
+    border-radius: 10px;
+}
+.footer1{
+    color: white;
+    font-weight: bold;
+
+}
+.h1 {
+    font-family: cursive;
+    font-size: 24px;
+    color: darkgray;
+    margin-left: 10px;
+}
+h2 {
+    font-size: 20px;
+    color: rgb(238, 232, 230);
+    margin-left: 10px;
+}
+.p {
+    font-size: 12px;
+    color: gray;
+    margin-left: 10px;
+}
+.p:hover {
+    font-size: 14px;
+    color: rgb(228, 226, 222);
+    margin-left: 10px;
+}
+.queries {
+    background-image: linear-gradient(orange,yellow);
+    border-radius: 8px;
+    margin-top: 10px;
+    padding: 10px;
+}
+.h {
+    font-family: serif;
+    font-size: 20px;
+    color: black;
+    
+}
+.p1 {
+    font-family: cursive;
+    font-size: 16px;
+    color: blue;
+    padding-bottom: 2px;
+    
+}
+.faq {
+    background-color: black;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 15px;
+    
+}
+
+.a2 {
+    font-style: normal;
+    font-size: 16px;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    padding: 5px;
+}

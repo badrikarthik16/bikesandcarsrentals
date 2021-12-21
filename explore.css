@@ -1,0 +1,109 @@
+.bg {
+    background-image: url("https://wallpapersmug.com/large/d606c0/winter-road-turn-long-exposure-snow-4k.jpg");
+    height: 180vh;
+    width: cover;
+    background-attachment: fixed;
+}
+.nav-container{
+    background-image: linear-gradient(rgba(162, 92, 241, 0.884),rgb(124, 94, 233));
+    padding: 5px;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 12px;
+}
+body {
+    margin: 0px;
+}
+header {
+    top: 0px;
+    position: sticky;
+}
+.image1{
+    height: 70px;
+    width: 80px;
+    padding: 8px;
+    border-radius: 5px;
+}
+.ol-container,.a1{
+    display: flex;
+    justify-content: space-around;
+    color: rgb(15, 15, 15);
+    list-style-type: none;
+    font-size: 20px;
+}
+.a1{
+    margin: 10px;
+}
+.navhead {
+    margin-left: 200px;
+    margin-top: 30px;
+}
+.footer-container{
+    background-image: linear-gradient(rgb(124, 94, 233),rgba(162, 92, 241, 0.884));
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    border-radius: 20px;
+}
+.image2{
+    height: 250px;
+    width: 180px;
+    padding-left: 0px;
+    border-radius: 10px;
+}
+.footer1{
+    color: white;
+    font-weight: bold;
+}
+
+.head2 {
+    background-image: linear-gradient(rgb(223, 103, 33),rgba(255, 166, 0, 0.822));
+    font-style: italic;
+    font-size: 14px;
+    color: black;
+    border-radius: 8px;
+    margin: 5px;
+    padding: 1px;
+}
+.p1 {
+    font-style: italic;
+    color: black;
+    text-align: center;
+    font-size: 16px;
+}
+
+.sec {
+    background-image: linear-gradient(rgb(213, 235, 177),rgb(195, 214, 25));
+    border-radius: 8px;
+    padding: 2px;
+    margin: 10px;
+}
+.about {
+    text-align: center;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.h2sec {
+    font-style: italic;
+    font-size: 20px;
+}
+
+.sec2 {
+    background-image: linear-gradient(rgb(155, 236, 155),rgb(217, 238, 177));
+    border-radius: 8px;
+    padding: 2px;
+    margin: 10px;
+}
+
+.a2 {
+    font-style: normal;
+    font-size: 16px;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    padding: 5px;
+}
