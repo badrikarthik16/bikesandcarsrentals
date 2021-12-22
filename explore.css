@@ -107,3 +107,8 @@ header {
     flex-direction: row;
     padding: 5px;
 }
+.display {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
